@@ -41,26 +41,19 @@ def rate_popularity(views: int) -> str:
 
 # Функция 5: Полный вывод новости (как в новостной ленте)
 def display_full_news(title, author, category, text, views, popularity, comment, pub_date):
-    print("\n" + "=" * 50)
     print("                НОВОСТНАЯ ЛЕНТА")
-    print("=" * 50)
     print(f"ЗАГОЛОВОК : {title}")
     print(f"АВТОР     : {author}")
     print(f"КАТЕГОРИЯ : {category}")
     print(f"ДАТА      : {pub_date}")
     print(f"ПРОСМОТРЫ : {views} ({popularity})")
-    print("-" * 50)
     print("ТЕКСТ НОВОСТИ:")
     print(text)
-    print("-" * 50)
     print("КОММЕНТАРИЙ:")
     print(comment)
-    print("=" * 50)
 
 
-print("=" * 50)
 print("       СИСТЕМА ПУБЛИКАЦИИ НОВОСТЕЙ")
-print("=" * 50)
 
 title = input("Введите заголовок новости: ")
 text = input("Введите текст новости: ")
