@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Иван Петров",
+        "email": "ivan.petrov@news.ru"
+    },
+    {
+        "id": 2,
+        "name": "Анна Смирнова",
+        "email": "anna.smirnova@news.ru"
+    },
+    {
+        "id": 3,
+        "name": "Ольга Кузнецова",
+        "email": ""
+    }
+]

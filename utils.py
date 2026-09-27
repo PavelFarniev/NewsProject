@@ -30,9 +30,9 @@ def input_text(prompt: str, allow_empty: bool = False) -> str:
         print("Ошибка: значение не может быть пустым.")
 
 
-def next_id(items: list[dict]) -> int:
-    """Вернуть следующий свободный идентификатор для списка записей."""
-    return max((item["id"] for item in items), default=0) + 1
+def next_id(items: list) -> int:
+    """Следующий свободный id для списка объектов (у каждого есть .id)."""
+    return max((item.id for item in items), default=0) + 1
 
 
 def today_iso() -> str:
