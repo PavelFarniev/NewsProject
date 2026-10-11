@@ -9,3 +9,6 @@ urlpatterns = [
     path("news/", include("news.urls")),
     path("authors/", include("authors.urls")),
 ]
+
+# Своя страница 404. Работает, когда DEBUG = False.
+handler404 = "homepage.views.page_not_found"
