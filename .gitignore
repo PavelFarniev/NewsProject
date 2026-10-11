@@ -6,3 +6,6 @@ venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Django
+db.sqlite3
